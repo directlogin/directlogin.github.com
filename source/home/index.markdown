@@ -11,5 +11,5 @@ But why can't we as users have one login that we can use to login to all these s
 
 DirectLogin is an open source project and a not for profit organization (not yet registered) that aims to provide the building blocks for solving the multiple login situation we currently have.
 
-Service providers will gain by not having to re-invent the wheel and less support requests from users forgetting their usernames and passwords.
+Service providers will gain by not having to re-invent the wheel and have fewer support requests with users forgetting their usernames and passwords among other benefits.
 
