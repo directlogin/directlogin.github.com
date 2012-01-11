@@ -1,29 +1,18 @@
 ---
-layout: default
+layout: page
+sharing: true
+footer: true
 ---
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+<p>
+  Ever wondered why every website wants you to setup a new login. Nowadays you can use Facebook, Twitter or Google to login into many services but it's still not convenient.
+</p>
+<p>
+  Why can't we as users have one login that we can use to login to all these services?
+</p>
+<p>
+  DirectLogin is an open source project and a not for profit organization (not yet registered) that aims to provide the building blocks for solving the multiple login situation we currently have. Consider is as a single sign on for the web.
+</p>  
+<p>
+  Service providers will gain by not having to re-invent the wheel and have fewer support requests from users who forget their usernames and passwords among other benefits.
+</p>
